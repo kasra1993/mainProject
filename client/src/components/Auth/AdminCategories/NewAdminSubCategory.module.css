@@ -1,0 +1,30 @@
+input {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.btn {
+  background-color: rgb(33, 128, 160);
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.btn:hover {
+  background-color: #065b5e;
+  cursor: pointer;
+}
+
+.item {
+  background-color: rgb(232, 222, 237);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}

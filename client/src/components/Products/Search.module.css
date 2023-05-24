@@ -1,0 +1,30 @@
+.search {
+  width: 100%;
+  min-height: 100px;
+  background-color: gold;
+  display: flex;
+}
+.searchInputs {
+  width: 10%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.searchinput {
+  background-color: white;
+  border: none;
+}
+
+.searchIcon {
+  background-color: white;
+}
+.dataresult {
+  display: flex;
+  flex-direction: column;
+  background-color: tomato;
+  min-height: 200px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+}

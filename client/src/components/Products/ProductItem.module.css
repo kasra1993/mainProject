@@ -1,0 +1,19 @@
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(73, 105, 109);
+  color: white;
+  width: 85%;
+  height: 30px;
+  margin-top: 10px;
+}
+.item {
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  border: 2px solid white;
+}

@@ -1,0 +1,42 @@
+.thead {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 15px;
+}
+.table {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 171, 171);
+  height: 250px;
+}
+.list {
+  width: 100%;
+  background-color: rgb(220, 220, 157);
+}
+.btn {
+  background-color: tomato;
+  border-radius: 15%;
+  border: none;
+  height: 30px;
+  width: 50px;
+  color: white;
+}
+.btn:hover {
+  color: white;
+  background-color: darkgreen;
+}

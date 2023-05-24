@@ -1,0 +1,58 @@
+.comments {
+  background-color: coral;
+  width: 100%;
+  min-height: 500px;
+
+  color: rgb(118, 118, 118);
+  display: flex;
+  flex-direction: column;
+}
+.comments_write {
+  background-color: cornsilk;
+  border: 1px solid black;
+  min-height: 100px;
+  width: inherit;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  float: right;
+  align-items: center;
+}
+.comments_read {
+  background-color: rgb(2, 99, 109);
+  min-height: 100px;
+  width: auto;
+  text-align: right;
+  padding: 10px;
+  margin: 5px;
+}
+.comment_error {
+  background-color: rgb(187, 187, 187);
+  color: red;
+  text-align: center;
+}
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+.rating {
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  width: 30px;
+}
+input[type="radio"] {
+  display: none;
+}
+.comments_read_item {
+  color: rgb(220, 0, 0);
+  background-color: rgb(193, 193, 193);
+  margin: 10px;
+  min-height: 150px;
+  padding: 5px;
+}

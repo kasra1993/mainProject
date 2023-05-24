@@ -1,0 +1,28 @@
+.cart {
+  max-width: 30rem;
+  background-color: #313131;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  margin-top: 50px;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  background-color: rgb(77, 77, 77);
+  font-size: 1.2rem;
+  height: 50px;
+  width: 200px;
+  color: white;
+  margin-top: 100px;
+}

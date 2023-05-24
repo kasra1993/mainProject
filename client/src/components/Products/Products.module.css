@@ -1,0 +1,13 @@
+* {
+  background-color: #fdf9f0;
+}
+.itemBtn {
+  width: auto;
+  height: auto;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 3%;
+  opacity: 70%;
+  background-color: #487f63;
+}
